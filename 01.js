@@ -14,3 +14,6 @@ function chromosomeCheck(sperm) {
 function barTriang(p1, p2, p3){
   return [+((p1[0]+p2[0]+p3[0])/3).toFixed(4), +((p1[1]+p2[1]+p3[1])/3).toFixed(4)]
 }
+
+//Be Concise IV - Index of an element in an array
+function find(array,element){let i=array.indexOf(element);return i<0?"Not found":i;}
