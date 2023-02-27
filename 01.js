@@ -20,3 +20,15 @@ function find(array,element){let i=array.indexOf(element);return i<0?"Not found"
 
 //Be Concise I - The Ternary Operator
 const describeAge=(age,s="You're a(n) ")=>(age <= 12)?s+"kid":(age>=13&&age<=17)?s+"teenager":(age>=18&&age<=64)?s+"adult":s+"elderly"
+
+//Power
+function numberToPower(number, power){
+  console.info(Math.log2(1024));
+  // Code here
+  if (power==0) return 1;
+  let multy=1;
+  for(let i=0; i<power; i++){
+    multy*=number;
+  }
+  return multy;
+}
