@@ -17,3 +17,6 @@ function barTriang(p1, p2, p3){
 
 //Be Concise IV - Index of an element in an array
 function find(array,element){let i=array.indexOf(element);return i<0?"Not found":i;}
+
+//Be Concise I - The Ternary Operator
+const describeAge=(age,s="You're a(n) ")=>(age <= 12)?s+"kid":(age>=13&&age<=17)?s+"teenager":(age>=18&&age<=64)?s+"adult":s+"elderly"
