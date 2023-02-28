@@ -32,3 +32,9 @@ function numberToPower(number, power){
   }
   return multy;
 }
+
+//Find out whether the shape is a cube
+var cubeChecker = function(volume, side){
+  if ( volume <=0 ) return false;
+  return volume==side*side*side ? true : false;
+};
