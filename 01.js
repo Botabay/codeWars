@@ -38,3 +38,9 @@ var cubeChecker = function(volume, side){
   if ( volume <=0 ) return false;
   return volume==side*side*side ? true : false;
 };
+
+//Counting sheep...
+function countSheeps(arrayOfSheep) {
+  // TODO May the force be with you
+  return arrayOfSheep.filter((el)=>el==true).length
+}
