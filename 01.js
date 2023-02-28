@@ -49,3 +49,11 @@ function countSheeps(arrayOfSheep) {
 function strCount(str, letter){  
   return str.split('').filter((el)=>el===letter).length;
 }
+
+//Unexpected parsing
+function getStatus(isBusy) {
+  var msg = (isBusy ? "busy" : "available");
+  return   {
+    status: msg
+  }
+}
