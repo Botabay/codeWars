@@ -44,3 +44,8 @@ function countSheeps(arrayOfSheep) {
   // TODO May the force be with you
   return arrayOfSheep.filter((el)=>el==true).length
 }
+
+//All Star Code Challenge #18
+function strCount(str, letter){  
+  return str.split('').filter((el)=>el===letter).length;
+}
