@@ -69,3 +69,9 @@ function xor(a, b) {
 function greet(){
   return "hello world!"
 }
+
+//ASCII Total
+function uniTotal (string) {
+// total up dem unicodes!
+  return string.split('').reduce((acc,curV)=>acc+curV.charCodeAt(0),0)
+}
