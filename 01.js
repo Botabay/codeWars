@@ -75,3 +75,8 @@ function uniTotal (string) {
 // total up dem unicodes!
   return string.split('').reduce((acc,curV)=>acc+curV.charCodeAt(0),0)
 }
+
+//Square(n) Sum
+function squareSum(numbers){
+  return numbers.reduce((acc,curV)=>acc+curV*curV,0)
+}
