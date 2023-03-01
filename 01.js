@@ -80,3 +80,9 @@ function uniTotal (string) {
 function squareSum(numbers){
   return numbers.reduce((acc,curV)=>acc+curV*curV,0)
 }
+
+//Century From Year
+function century(year) {
+  // Finish this :)  
+  return Math.ceil(year/100)
+}
