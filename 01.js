@@ -86,3 +86,9 @@ function century(year) {
   // Finish this :)  
   return Math.ceil(year/100)
 }
+
+//Is n divisible by x and y?
+function isDivisible(n, x, y) {
+  if (n%x!=0) return false;
+  return n%y==0 || false;
+}
