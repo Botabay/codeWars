@@ -109,3 +109,11 @@ function mystery() {
     {sanity: 'Hello'};
   return    results;
 }
+
+//Find Nearest square number
+function nearestSq(n){
+  // your code
+let a=Math.floor(Math.sqrt(n));
+if (a*a==n) return n;
+return (n-a*a)>((a+1)*(a+1)-n) ? (a+1)*(a+1) : a*a;
+}
