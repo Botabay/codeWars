@@ -92,3 +92,8 @@ function isDivisible(n, x, y) {
   if (n%x!=0) return false;
   return n%y==0 || false;
 }
+
+//Geometry Basics: Distance between points in 2D
+function distanceBetweenPoints(a, b) {
+  return Math.sqrt(Math.pow(b.x-a.x,2)+Math.pow(b.y-a.y,2)); // your code here
+}
