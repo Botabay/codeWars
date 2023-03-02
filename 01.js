@@ -165,3 +165,8 @@ function booleanToString(b){
   //your code here
   return ''+b;
 }
+
+//Price of Mangoes
+function mango(quantity, price){
+  return Math.floor(quantity/3)*2*price+quantity%3*price;
+}
