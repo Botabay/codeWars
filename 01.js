@@ -153,3 +153,9 @@ class Person {
 function solution(str){
   return str.split('').reverse().join('');
 }
+
+//Add Length
+function addLength(str) {
+//start-here
+  return str.split(' ').map(el=>el=el+' '+el.length);
+}
