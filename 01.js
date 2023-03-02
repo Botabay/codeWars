@@ -117,3 +117,15 @@ let a=Math.floor(Math.sqrt(n));
 if (a*a==n) return n;
 return (n-a*a)>((a+1)*(a+1)-n) ? (a+1)*(a+1) : a*a;
 }
+
+//Grasshopper - Terminal Game #1
+function Hero (name='Hero') {
+  // add default values here
+  return {
+    name,
+    position:'00',
+    health:100,
+    damage:5,
+    experience:0
+  }
+}
