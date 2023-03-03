@@ -179,3 +179,9 @@ function createArray(number){
   }  
   return newArray;
 }
+
+//Quarter of the year
+const quarterOf = (month) => {
+  // Your code here
+  return month%3==0 ? month/3 : Math.ceil(month/3)
+}
