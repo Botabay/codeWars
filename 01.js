@@ -185,3 +185,8 @@ const quarterOf = (month) => {
   // Your code here
   return month%3==0 ? month/3 : Math.ceil(month/3)
 }
+
+//The 'if' function
+function _if(bool, func1, func2) {
+  if (bool) func1(); else func2();
+}
