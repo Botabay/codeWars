@@ -205,3 +205,8 @@ function simpleMultiplication(number) {
 function reverseWords(str){
   return str.split(' ').reverse().join(' '); // reverse those words
 }
+
+//Keep Hydrated!
+function litres(time) {
+  return Math.floor(time*0.5);
+}
