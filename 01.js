@@ -200,3 +200,8 @@ function otherAngle(a, b) {
 function simpleMultiplication(number) {
   return number % 2 == 0 ? 8 * number : 9 * number;
 }
+
+//reversed words
+function reverseWords(str){
+  return str.split(' ').reverse().join(' '); // reverse those words
+}
