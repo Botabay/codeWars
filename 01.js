@@ -195,3 +195,8 @@ function _if(bool, func1, func2) {
 function otherAngle(a, b) {
   return 180-a-b;
 }
+
+//Simple multiplication
+function simpleMultiplication(number) {
+  return number % 2 == 0 ? 8 * number : 9 * number;
+}
