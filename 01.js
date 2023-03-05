@@ -210,3 +210,10 @@ function reverseWords(str){
 function litres(time) {
   return Math.floor(time*0.5);
 }
+
+//Filter out the geese
+function gooseFilter (birds) {
+  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];  
+  // return an array containing all of the strings in the input array except those that match strings in geese
+  return birds.filter((el)=>!geese.includes(el))
+};
