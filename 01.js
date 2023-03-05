@@ -223,3 +223,8 @@ function past(h, m, s){
   //#Happy Coding! ^_^
   return ((h * 60 + m) * 60 + s) * 1000;
 }
+
+//Invert values
+function invert(array) {
+  return array.map((el) => - el);
+}
