@@ -217,3 +217,9 @@ function gooseFilter (birds) {
   // return an array containing all of the strings in the input array except those that match strings in geese
   return birds.filter((el)=>!geese.includes(el))
 };
+
+//Beginner Series #2 Clock
+function past(h, m, s){
+  //#Happy Coding! ^_^
+  return ((h * 60 + m) * 60 + s) * 1000;
+}
