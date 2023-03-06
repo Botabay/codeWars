@@ -242,3 +242,12 @@ function repeatStr (n, s) {
 function howManyLightsabersDoYouOwn(name) {
   return name==='Zach' ? 18 : 0;
 }
+
+//Powers of 2
+function powersOfTwo(n){
+  let arr = [];
+  for (let i = 0; i <= n; i++){
+    arr.push(Math.pow(2,i));
+  }
+  return arr;
+}
