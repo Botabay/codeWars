@@ -228,3 +228,12 @@ function past(h, m, s){
 function invert(array) {
   return array.map((el) => - el);
 }
+
+//String repeat
+function repeatStr (n, s) {
+  let sum='';
+  for(let i = 0; i < n; i++){
+    sum += s;
+  }
+  return sum;
+}
