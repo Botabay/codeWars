@@ -256,3 +256,12 @@ function powersOfTwo(n){
 function grow(x){
   return x.reduce((acc,curV)=>curV*acc)
 }
+
+//Vowel remover
+function shortcut (string) {
+  let arr=['a', 'e','i', 'o', 'u'], result=[];
+  string.split('').forEach((el)=>{
+    if (!arr.includes(el)) result.push(el)
+  })
+  return result.join('');
+}
