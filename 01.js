@@ -251,3 +251,8 @@ function powersOfTwo(n){
   }
   return arr;
 }
+
+//Beginner - Reduce but Grow
+function grow(x){
+  return x.reduce((acc,curV)=>curV*acc)
+}
