@@ -290,3 +290,18 @@ function SubtractSum(n){
   return 'apple';// fruit name like "apple"
   
 }
+
+//Cat years, Dog years
+var humanYearsCatYearsDogYears = function(humanYears) {
+  // Your code here!
+  function calc(n){
+    let countCat, countDog;
+    for (let i = 1; i <= n; i++){
+      if(i == 1) {countCat = 15; countDog = 15;}
+      if(i == 2) {countCat += 9; countDog += 9;}
+      if (i>2) {countCat +=4; countDog += 5;}
+    }
+    return [humanYears, countCat, countDog];
+  }
+  return calc(humanYears);
+}
