@@ -305,3 +305,13 @@ var humanYearsCatYearsDogYears = function(humanYears) {
   }
   return calc(humanYears);
 }
+
+//Grasshopper - Summation
+var summation = function (num) {
+  // Code here
+  let sum=0;
+  for (let i = 0; i<=num; i++){
+    sum+=i;
+  }
+  return sum;
+}
