@@ -276,3 +276,17 @@ var hotpo = function(n){
     }
     return q;
 }
+
+//Subtract the Sum
+function SubtractSum(n){
+  function calc(n){
+    let  s = n + '';
+    let val =s.split('').reduce((acc,curV) =>acc + +curV, 0);
+    return val;
+  }
+  while(n >= 10 && n < 10000){
+    n = n - calc(n);
+  }
+  return 'apple';// fruit name like "apple"
+  
+}
