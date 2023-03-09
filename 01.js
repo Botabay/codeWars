@@ -320,3 +320,9 @@ var summation = function (num) {
 function feast(beast, dish) {
   return beast[0]==dish[0]&&beast[beast.length-1]==dish[dish.length-1];
 }
+
+//Holiday VI - Shark Pontoon
+function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
+  let result=(dolphin) ? 2:1;
+  return pontoonDistance/youSpeed> sharkDistance/sharkSpeed*result ?  "Shark Bait!" : "Alive!";
+}
