@@ -346,3 +346,8 @@ function giveMeFive(obj){
   }
   return arr;
 }
+
+//Area or Perimeter
+const areaOrPerimeter = function(l , w) {
+  return l==w ? l*l:(l+w)*2;
+};
