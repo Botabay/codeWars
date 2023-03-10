@@ -362,3 +362,16 @@ function points(games) {
     return a+v;
   },0)
 }
+
+// Sum Numbers
+function sum (numbers) {
+  "use strict";
+//   function isAN(value) {
+//     if(value instanceof Number)
+//       value = value.valueOf(); // Если это объект числа, то берём значение, которое и будет числом  
+//     return  isFinite(value) && value === parseInt(value, 10);
+//   }
+    return numbers.reduce((a,v)=>{
+      if (Number.isNaN(v)) v=0;
+      return a+v},0)    
+};
