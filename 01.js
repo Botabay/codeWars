@@ -351,3 +351,14 @@ function giveMeFive(obj){
 const areaOrPerimeter = function(l , w) {
   return l==w ? l*l:(l+w)*2;
 };
+
+//Total amount of points
+function points(games) {
+  return games.reduce((a,v)=>{
+    let arr=v.split(':');
+    if (arr[0]>arr[1]) v=3;
+    if (arr[0]<arr[1]) v=0;
+    if (arr[0]==arr[1]) v=1;
+    return a+v;
+  },0)
+}
