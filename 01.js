@@ -375,3 +375,15 @@ function sum (numbers) {
       if (Number.isNaN(v)) v=0;
       return a+v},0)    
 };
+
+//Grasshopper - Debug
+function weatherInfo (temp) {
+  function convertToCelsius (temperature) {
+    return (temperature - 32) * (5/9)
+  }
+  let c = convertToCelsius(temp);
+  if (c < 0)
+    return (c + " is freezing temperature")
+  else
+    return (c + " is above freezing temperature")
+}
