@@ -438,3 +438,9 @@ function equal5(){
 function cockroachSpeed(s) {
   return Math.floor(s*100000/3600);
 }
+
+//Enumerable Magic - Does My List Include This?
+function include(arr, item){
+  return arr.includes(item)
+}
+
