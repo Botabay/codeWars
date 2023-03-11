@@ -449,3 +449,7 @@ function check(a,x){
   return a.includes(x)
 };
 
+//How good are you really?
+function betterThanAverage(classPoints, yourPoints) {
+  return classPoints.reduce((a,v)=>a+v, 0)/classPoints.length<yourPoints;
+}
