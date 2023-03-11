@@ -466,3 +466,22 @@ function maps(x){
   return x.map(el=>2*el)
 }
 
+//Twice as old
+function twiceAsOld(d, s) {
+  let k=0;
+  if (d==2*s) return 0;
+  if (d/s>2) {
+    while(d!=2*s){
+      s++;d++;k++;
+    }
+    return k
+  }
+  else  {
+    while(d!=2*s){
+      s--;d--;k++;
+    }
+    return k;
+  }
+}
+
+
