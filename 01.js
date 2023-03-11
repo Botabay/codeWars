@@ -484,4 +484,12 @@ function twiceAsOld(d, s) {
   }
 }
 
+//Find the Remainder
+function remainder(n, m){
+  let a,b;
+  if (n<m) {a=n;b=m;} else {a=m;b=n;}
+  return a===0 ? NaN :  b%a;
+}
+
+
 
