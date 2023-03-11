@@ -453,3 +453,10 @@ function check(a,x){
 function betterThanAverage(classPoints, yourPoints) {
   return classPoints.reduce((a,v)=>a+v, 0)/classPoints.length<yourPoints;
 }
+
+//Calculate Price Excluding VAT
+//return price without vat
+function excludingVatPrice(price){
+  if (price===null) return -1;
+  return Math.round(price/(1.15)*100)/100;
+}
