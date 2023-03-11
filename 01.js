@@ -491,5 +491,16 @@ function remainder(n, m){
   return a===0 ? NaN :  b%a;
 }
 
+//Classy Extentions
+class Cat extends Animal {
+  
+  constructor(v){
+    super();
+    this.v=v;
+  }
+  speak(v){
+     return this.v+ ' meows.';
+    }
+}
 
 
