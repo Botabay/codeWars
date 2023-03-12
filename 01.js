@@ -503,4 +503,13 @@ class Cat extends Animal {
     }
 }
 
+//Thinkful - Logic Drills: Traffic light
+function updateLight(current) {
+  let arr=['green','yellow','red'];
+  //your code here!
+  let index=arr.indexOf(current);
+  index=index<2?arr.indexOf(current)+1:0;
+  return arr[index]
+}
+
 
