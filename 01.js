@@ -562,3 +562,8 @@ function first(arr, n) {
   if (n===undefined) return [arr[0]];
   return arr.splice(0,n);
 }
+
+//MakeUpperCase
+function makeUpperCase(str) {
+  return str.toUpperCase()
+}
