@@ -522,4 +522,9 @@ function dutyFree(normPrice, discount, hol){
   return Math.floor(hol/(normPrice*discount/100));
 }
 
-
+//Volume of a Cuboid
+class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    return length* width* height
+  }
+}
