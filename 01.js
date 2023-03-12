@@ -533,3 +533,9 @@ class Kata {
 function enough(cap, on, wait) {
   return cap-on>=wait ? 0: wait-(cap-on);
 }
+
+//Calculate average
+function findAverage(array) {
+ // if (array.isEmpty()) return 0;
+  return array.reduce((acc,v)=>acc+v,0)/array.length || 0;
+}
