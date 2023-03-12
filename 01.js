@@ -539,3 +539,8 @@ function findAverage(array) {
  // if (array.isEmpty()) return 0;
   return array.reduce((acc,v)=>acc+v,0)/array.length || 0;
 }
+
+//Area of a Square
+function squareArea(A){
+  return r=(2*A/Math.PI)*(2*A/Math.PI)
+}
