@@ -556,3 +556,9 @@ function whatday(num) {
 7 : "Saturday"}
 return days[num]||"Wrong, please enter a number between 1 and 7";
 }
+
+//pick a set of first elements
+function first(arr, n) {
+  if (n===undefined) return [arr[0]];
+  return arr.splice(0,n);
+}
