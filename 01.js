@@ -602,3 +602,13 @@ function countPositivesSumNegatives(input) {
 function doubleInteger(i) {
   return i*2;
 }
+
+//Basic Mathematical Operations
+function basicOp(operation, value1, value2)
+{ obj={'+': (a,b)=>a+b,
+      '-': (a,b)=>a-b,
+      '*': (a,b)=>a*b,
+      '/': (a,b)=>a/b,
+      }
+  return obj[operation](value1,value2)
+}
