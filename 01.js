@@ -626,3 +626,8 @@ function monkeyCount(n) {
   }
   return arr;
 }
+
+//My head is at the wrong end!
+function fixTheMeerkat(arr) {
+  return arr.reverse();
+}
