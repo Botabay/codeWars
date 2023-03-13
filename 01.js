@@ -583,7 +583,17 @@ function oddCount(n){
 }
 
 //You only need one - Beginner
-JavaScript:
 function check(a, x) {
   return a.includes(x)
+}
+
+//Count of positives / sum of negatives
+function countPositivesSumNegatives(input) {
+  if (input===null || input.length==0 || input===undefined) return [];
+  let count=0,sum=0;
+  input.forEach((el)=>{
+    if(el>0) count++;
+    if (el<0) sum+=el;
+  })
+  return [count,sum];
 }
