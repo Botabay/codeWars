@@ -576,3 +576,8 @@ function Ship(draft,crew) {
    return this.draft-this.crew*1.5>20;
    }
 }
+
+//Count Odd Numbers below n
+function oddCount(n){
+  return Math.floor(n/2);
+}
