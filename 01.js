@@ -612,3 +612,8 @@ function basicOp(operation, value1, value2)
       }
   return obj[operation](value1,value2)
 }
+
+//Is the string uppercase?
+String.prototype.isUpperCase = function() {
+  return this.toUpperCase()===this.toString();
+}
