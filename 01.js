@@ -631,3 +631,9 @@ function monkeyCount(n) {
 function fixTheMeerkat(arr) {
   return arr.reverse();
 }
+
+//Is there a vowel in there?
+function isVow(a){
+  let arr=['a', 'e', 'i', 'o', 'u'];
+  return a.map(el=>arr.includes ( String.fromCodePoint(el) )? String.fromCodePoint(el) :el)
+}
