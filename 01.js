@@ -617,3 +617,12 @@ function basicOp(operation, value1, value2)
 String.prototype.isUpperCase = function() {
   return this.toUpperCase()===this.toString();
 }
+
+//Count the Monkeys!
+function monkeyCount(n) {
+  let arr=[];
+  for (let i=1;i<=n;i++){
+    arr.push(i)
+  }
+  return arr;
+}
