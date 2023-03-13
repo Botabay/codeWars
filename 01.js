@@ -581,3 +581,9 @@ function Ship(draft,crew) {
 function oddCount(n){
   return Math.floor(n/2);
 }
+
+//You only need one - Beginner
+JavaScript:
+function check(a, x) {
+  return a.includes(x)
+}
