@@ -637,3 +637,8 @@ function isVow(a){
   let arr=['a', 'e', 'i', 'o', 'u'];
   return a.map(el=>arr.includes ( String.fromCodePoint(el) )? String.fromCodePoint(el) :el)
 }
+
+//Abbreviate a Two Word Name
+function abbrevName(name){
+  return name.toUpperCase().split(' ').map((el)=>el[0]).join('.');
+}
