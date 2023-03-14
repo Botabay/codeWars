@@ -681,3 +681,8 @@ welsh: 'Croeso'
   }
   return obj[language] ? obj[language]: 'Welcome';
 }
+
+//Get the mean of an array
+function getAverage(marks){
+  return Math.floor(marks.reduce((acc,curV)=>acc+curV, 0)/marks.length);
+}
