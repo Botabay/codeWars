@@ -647,3 +647,8 @@ function abbrevName(name){
 function apple(x){
   return x*x>1000 ? 'It\'s hotter than the sun!!' : 'Help yourself to a honeycomb Yorkie for the glovebox.'
 }
+
+//Super Duper Easy
+function problem(x){
+  return typeof x=='string' ? "Error": x*50+6;
+}
