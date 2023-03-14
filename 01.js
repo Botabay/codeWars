@@ -686,3 +686,8 @@ welsh: 'Croeso'
 function getAverage(marks){
   return Math.floor(marks.reduce((acc,curV)=>acc+curV, 0)/marks.length);
 }
+
+//Remove First and Last Character
+function removeChar(str){
+  return str.slice(1,str.length-1);
+}
