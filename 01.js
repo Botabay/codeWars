@@ -702,3 +702,8 @@ var totalGoals=laLigaGoals+championsLeagueGoals+copaDelReyGoals;
 function lovefunc(flower1, flower2){
   return flower1%2!==flower2%2;
 }
+
+//Keep up the hoop
+function hoopCount (n) {
+   return n<10? 'Keep at it until you get it':"Great, now move on to tricks"
+}
