@@ -697,3 +697,8 @@ var laLigaGoals=43;
 var championsLeagueGoals=10;
 var copaDelReyGoals=5;
 var totalGoals=laLigaGoals+championsLeagueGoals+copaDelReyGoals;
+
+//Opposites Attract
+function lovefunc(flower1, flower2){
+  return flower1%2!==flower2%2;
+}
