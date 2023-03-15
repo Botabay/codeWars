@@ -758,3 +758,10 @@ function getAge(inputString){
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   return fuelLeft*mpg>=distanceToPump;
 }
+
+//Convert a String to a Number!
+const stringToNumber = function(str){
+  // put your code here
+  
+  return +str;
+}
