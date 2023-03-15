@@ -729,3 +729,9 @@ function bmi(weight, height) {
   let bmi=weight/(height*height);
   return bmi<=18.5 ? 'Underweight' : bmi<=25 ? 'Normal': bmi<=30 ? "Overweight": 'Obese';
 }
+
+//Sum The Strings
+JavaScript:
+function sumStr(a,b) {
+  return (+a + +b)+'';
+}
