@@ -739,3 +739,11 @@ function sumStr(a,b) {
 function buildString(...template){
   return `I like ${template.join(', ')}!`;
 }
+
+//Difference of Volumes of Cuboids
+function findDifference(a, b) {
+  function f(x){
+    return x[0]*x[1]*x[2];
+  }
+  return Math.abs(f(a)-f(b));
+}
