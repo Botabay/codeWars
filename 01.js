@@ -713,3 +713,8 @@ function addFive(num) {
   var total = num + 5
   return total;
 }
+
+//Switch it Up!
+function switchItUp(number){
+  return ['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine'][number];
+}
