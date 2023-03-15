@@ -747,3 +747,9 @@ function findDifference(a, b) {
   }
   return Math.abs(f(a)-f(b));
 }
+
+//Parse nice int from char problem
+function getAge(inputString){
+// return the girl's correct age as an integer. Happy coding :) 
+  return +inputString.split('')[0]
+}
