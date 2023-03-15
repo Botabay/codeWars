@@ -718,3 +718,8 @@ function addFive(num) {
 function switchItUp(number){
   return ['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine'][number];
 }
+
+//Basic variable assignment
+var a = "code";
+var b = "wa.rs";
+var name = a + b;
