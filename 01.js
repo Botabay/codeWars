@@ -753,3 +753,8 @@ function getAge(inputString){
 // return the girl's correct age as an integer. Happy coding :) 
   return +inputString.split('')[0]
 }
+
+//Will you make it?
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  return fuelLeft*mpg>=distanceToPump;
+}
