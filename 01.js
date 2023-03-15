@@ -707,3 +707,9 @@ function lovefunc(flower1, flower2){
 function hoopCount (n) {
    return n<10? 'Keep at it until you get it':"Great, now move on to tricks"
 }
+
+//Grasshopper - Basic Function Fixer
+function addFive(num) {
+  var total = num + 5
+  return total;
+}
