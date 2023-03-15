@@ -731,7 +731,11 @@ function bmi(weight, height) {
 }
 
 //Sum The Strings
-JavaScript:
 function sumStr(a,b) {
   return (+a + +b)+'';
+}
+
+//String Templates - Bug Fixing #5
+function buildString(...template){
+  return `I like ${template.join(', ')}!`;
 }
