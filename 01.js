@@ -816,3 +816,10 @@ function helloWorld(){
   let str='Hello World!';
   console.log(str)
 }
+
+//CamelCase Method
+String.prototype.camelCase=function(){
+  //your code here
+  if (this=='') return '';
+  return this.split(' ').map((el)=>el=el[0].toUpperCase()+el.slice(1)).join('');
+}
