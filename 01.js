@@ -823,3 +823,8 @@ String.prototype.camelCase=function(){
   if (this=='') return '';
   return this.split(' ').map((el)=>el=el[0].toUpperCase()+el.slice(1)).join('');
 }
+
+//Remove exclamation marks
+function removeExclamationMarks(s) {
+  return s.split('!').join('');
+}
