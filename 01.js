@@ -765,3 +765,9 @@ const stringToNumber = function(str){
   
   return +str;
 }
+
+//Is it a palindrome?
+function isPalindrome(x) {
+  // your code here
+  return x.toLowerCase().split('').reverse().join("")==x.toLowerCase();
+}
