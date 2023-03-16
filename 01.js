@@ -776,3 +776,8 @@ function isPalindrome(x) {
 function sayHello(name) {
   return 'Hello, '+name;
 }
+
+//Regular Ball Super Ball
+var Ball = function(ballType) {
+    this.ballType = ballType === undefined ? 'regular' : ballType;  
+};
