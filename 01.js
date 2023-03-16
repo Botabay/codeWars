@@ -800,3 +800,12 @@ var min = function(list){
 var max = function(list){    
     return Math.max(...list);
 }
+
+//Enumerable Magic #4 - True for None?
+function none(arr, fun){
+  for (let v of arr){
+    let status=fun(v);
+    if (status) return !status;
+  }
+  return true;
+}
