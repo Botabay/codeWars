@@ -781,3 +781,13 @@ function sayHello(name) {
 var Ball = function(ballType) {
     this.ballType = ballType === undefined ? 'regular' : ballType;  
 };
+
+//Find Multiples of a Number
+function findMultiples(integer, limit) {
+  let x=integer, arr=[];
+  while(x<=limit){
+    arr.push(x);
+    x+=integer;
+  }
+  return arr;
+}
