@@ -850,3 +850,12 @@ function getDrinkByProfession(param){
 //Incorrect division method
 JavaScript:
 const solve = (x, y) => x / y
+
+//UEFA EURO 2016
+function uefaEuro2016(teams, scores){
+  const [a,b]=teams;
+  let s;
+  if (scores[0]>scores[1]) s=a;else s=b;
+  if (scores[0]===scores[1]) return `At match ${a} - ${b}, teams played draw.`
+  return `At match ${a} - ${b}, ${s} won!`
+}
