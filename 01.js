@@ -833,3 +833,16 @@ function removeExclamationMarks(s) {
 function saleHotdogs(n){
   return n<5? n*100: (n>=5&&n<10) ? n*95:n*90
 }
+
+//L1: Bartender, drinks!
+function getDrinkByProfession(param){
+  switch(param.toLowerCase()){
+      case "Jabroni".toLowerCase():return "Patron Tequila";break;
+      case "School Counselor".toLowerCase():return "Anything with Alcohol";break;
+      case "Programmer".toLowerCase():return "Hipster Craft Beer";break;
+      case "Bike Gang Member".toLowerCase():return "Moonshine";break;
+      case "Politician".toLowerCase():return "Your tax dollars";break;
+      case "Rapper".toLowerCase():return "Cristal";break;
+      default: return "Beer"
+  }
+}
