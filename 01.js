@@ -894,3 +894,8 @@ function swapValues() {
     args[0] = args[1];
     args[1] = temp;
 }
+
+//Do you speak "English"?
+function spEng(sentence){
+  return /english/ig.test(sentence)
+}
