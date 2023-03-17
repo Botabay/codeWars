@@ -864,3 +864,15 @@ function uefaEuro2016(teams, scores){
 const solution= (molarMass1, molarMass2, givenMass1, givenMass2, volume, temp) => {
   return (givenMass1/molarMass1+givenMass2/molarMass2)*0.082*(temp+273.15)/volume;
 }
+
+//Logical calculator
+function logicalCalc(array, op){
+  let sum=array[0];
+  const ops={'AND':(a,b)=>a&&b,'OR':(a,b)=>a||b,'XOR':(a,b)=>
+    (a===true && b===true || a===false && b===false) ? false:true
+  }
+  for (let i=1;i<array.length;i++){
+    sum=ops[op](sum,array[i])
+  }
+  return sum;
+}
