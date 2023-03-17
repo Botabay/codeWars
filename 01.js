@@ -846,3 +846,7 @@ function getDrinkByProfession(param){
       default: return "Beer"
   }
 }
+
+//Incorrect division method
+JavaScript:
+const solve = (x, y) => x / y
