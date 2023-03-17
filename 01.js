@@ -876,3 +876,8 @@ function logicalCalc(array, op){
   }
   return sum;
 }
+
+//Template Strings
+var TempleStrings = function(obj, feature) {
+  return `${obj} are ${feature}`
+}
