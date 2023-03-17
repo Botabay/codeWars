@@ -886,3 +886,11 @@ var TempleStrings = function(obj, feature) {
 function converter (mpg) {
   return +(mpg*1.609344/4.54609188).toFixed(2);
 }
+
+//Swap Values
+function swapValues() {
+    var [args] = Array.prototype.slice.call(arguments);
+    var temp = args[0];
+    args[0] = args[1];
+    args[1] = temp;
+}
