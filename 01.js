@@ -899,3 +899,13 @@ function swapValues() {
 function spEng(sentence){
   return /english/ig.test(sentence)
 }
+
+//Generate range of integers
+function generateRange(min, max, step){
+  let arr=[],i=min;
+  while(i<=max){
+    arr.push(i);
+    i+=step;
+  }
+  return arr;
+}
