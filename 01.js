@@ -909,3 +909,8 @@ function generateRange(min, max, step){
   }
   return arr;
 }
+
+//Is it a number?
+function isDigit(s) {  
+  return  !isNaN(parseFloat(s)) && isFinite(s);
+}
