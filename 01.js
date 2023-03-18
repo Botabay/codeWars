@@ -937,3 +937,9 @@ function  calculateAge(f,t) {
   let y=Math.abs(f-t)==1?'year':'years'
   return (f<t)?`You are ${t-f} ${y} old.`:f==t?"You were born this very year!":`You will be born in ${f-t} ${y}.`
 }
+
+//Did she say hallo?
+function validateHello(greetings) {
+  res =  /hello|ciao|salut|hallo|hola|ahoj|czesc/i.test(greetings) 
+  return res
+}
