@@ -914,3 +914,10 @@ function generateRange(min, max, step){
 function isDigit(s) {  
   return  !isNaN(parseFloat(s)) && isFinite(s);
 }
+
+//Enumerable Magic #1 - True for All?
+function all( arr, fun ){
+  for(let i=0;i<arr.length;i++)
+    if (!fun(arr[i])) return false;
+  return true;
+}
