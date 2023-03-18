@@ -926,3 +926,8 @@ function all( arr, fun ){
 function main (verb, noun){
   return verb + noun
 }
+
+//Ensure question
+function ensureQuestion(s) {
+  return /\?$/.test(s)?s:s+'?'
+}
