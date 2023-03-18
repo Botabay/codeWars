@@ -921,3 +921,8 @@ function all( arr, fun ){
     if (!fun(arr[i])) return false;
   return true;
 }
+
+//Grasshopper - Function syntax debugging
+function main (verb, noun){
+  return verb + noun
+}
