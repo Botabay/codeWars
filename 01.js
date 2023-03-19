@@ -949,3 +949,8 @@ function validateHello(greetings) {
 var websites = [];
 websites.length=1000;
 websites.fill('codewars')
+
+//Return Two Highest Values in List
+function twoHighest(arr) {
+  return Array.from(new Set(arr)).sort((a,b)=>a<b?1:-1).splice(0,2);  
+}
