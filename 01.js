@@ -954,3 +954,11 @@ websites.fill('codewars')
 function twoHighest(arr) {
   return Array.from(new Set(arr)).sort((a,b)=>a<b?1:-1).splice(0,2);  
 }
+
+//Remove First and Last Character Part Two
+function array(arr){
+  arr.replace(/\s/g,'');
+  if (arr.split(',').length<3) return null;
+  const varr=arr.split(',');
+  return varr.splice(1,varr.length-2).join(' ');  
+}
