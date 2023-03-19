@@ -943,3 +943,9 @@ function validateHello(greetings) {
   res =  /hello|ciao|salut|hallo|hola|ahoj|czesc/i.test(greetings) 
   return res
 }
+
+//Kata Example Twist
+// add the value "codewars" to the websites array 1,000 times
+var websites = [];
+websites.length=1000;
+websites.fill('codewars')
