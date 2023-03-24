@@ -962,3 +962,8 @@ function array(arr){
   const varr=arr.split(',');
   return varr.splice(1,varr.length-2).join(' ');  
 }
+
+//Grasshopper - Variable Assignment Debug
+var a = "dev"
+var b = "Lab"
+var name = a + b
