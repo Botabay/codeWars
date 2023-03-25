@@ -987,3 +987,9 @@ function finalGrade (exam, projects) {
 function remove (string) {  
   return string.replace(/!{1,}$/,'');
 }
+
+//A Needle in the Haystack
+function findNeedle(haystack) {
+  let pos=(haystack.indexOf('needle')===(-1)) ? 'no pos':haystack.indexOf('needle');
+  return pos!=='no pos'?`found the needle at position ${pos}`:"Your function didn't return anything"
+}
