@@ -982,3 +982,8 @@ function sixToast(num) {
 function finalGrade (exam, projects) {
   return (exam>90 || projects>10)? 100:(exam>75 && projects>=5)? 90:(exam>50 && projects>=2)?75:0
 }
+
+//Exclamation marks series #2: Remove all exclamation marks from the end of sentence
+function remove (string) {  
+  return string.replace(/!{1,}$/,'');
+}
