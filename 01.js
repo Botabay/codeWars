@@ -993,3 +993,9 @@ function findNeedle(haystack) {
   let pos=(haystack.indexOf('needle')===(-1)) ? 'no pos':haystack.indexOf('needle');
   return pos!=='no pos'?`found the needle at position ${pos}`:"Your function didn't return anything"
 }
+
+//Exclamation marks series #4: Remove all exclamation marks from sentence but ensure a exclamation mark at the end of string
+function remove (string) {
+  //coding and coding....
+  return string.replace(/!/g,'')+'!';  
+}
