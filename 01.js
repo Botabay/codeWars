@@ -999,3 +999,15 @@ function remove (string) {
   //coding and coding....
   return string.replace(/!/g,'')+'!';  
 }
+
+//Sum of Multiples
+function sumMul(n,m){
+  if (n>=m) return 'INVALID';
+  let sum=0;
+  let i=n;
+  while(i<m){
+    sum+=i;
+    i=i+n;
+  }
+  return sum;
+}
