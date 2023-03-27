@@ -1016,3 +1016,8 @@ function sumMul(n,m){
 function iceBrickVolume(radius, bottleLength, rimLength) {
   return (bottleLength- rimLength)*2*radius*radius;
 }
+
+//Add new item (collections are passed by reference)
+function addExtra( listOfNumbers ){
+    return [...listOfNumbers,'q'];
+}
