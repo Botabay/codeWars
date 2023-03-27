@@ -1021,3 +1021,14 @@ function iceBrickVolume(radius, bottleLength, rimLength) {
 function addExtra( listOfNumbers ){
     return [...listOfNumbers,'q'];
 }
+
+//Heads and Legs
+function animals(heads, legs){
+  if( heads==0 && legs==0) return [0,0];
+  if(legs/4>heads ||legs/2<heads || legs%2>0 || heads<0 ||legs<=0) return 'No solutions';  
+  let th=legs/2,ql=0;
+  while(th>heads){
+    th--;ql++;
+  }
+  return[th-ql,ql]
+}
