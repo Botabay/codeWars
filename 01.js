@@ -1037,3 +1037,8 @@ function animals(heads, legs){
 function isLockNessMonster(s) {
   return /tree fiddy|3.50|three fifty/.test(s)
 }
+
+//Pirates!! Are the Cannons ready!??
+const cannonsReady = (gunners) => {
+  return (new Set(Object.values(gunners))).has('nay')?'Shiver me timbers!':'Fire!'
+}
